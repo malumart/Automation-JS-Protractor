@@ -1,1 +1,4 @@
-# Automation-Testing---JavaScript---2020-01---Exercises
+# Automation Testing Course 
+JavaScript + Protractor + Jasmine 
+
+Start Date: January 2020
