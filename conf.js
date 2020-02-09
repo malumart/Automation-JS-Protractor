@@ -9,7 +9,7 @@ exports.config = {
         browserName: 'chrome'
       },
     // run all the specs under Spec folder
-    specs: ['./specs/simple.spec.js'],
+    specs: ['./specs/homePage.spec.js'],
     onPrepare: () => {
         // Browser config
         // Ignore Sync for non Angunlar pages
@@ -17,7 +17,7 @@ exports.config = {
         // maximize browser
         browser.driver.manage().window().maximize();
       
-		browser.get(`https://www.skyscanner.com/`);
+		browser.get(`https://www.dafiti.com.ar/`);
         //Jasmine set initialization 
         const environment = jasmine.getEnv();
         // Reports config
